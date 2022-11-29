@@ -1,0 +1,160 @@
+/* * header part start  */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.navbar-collapse {
+    position: absolute;
+    z-index: 3;
+    top: 66px;
+    background-color: aliceblue;
+    width: 100%;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    }
+}
+.navbar-collapse.collapse{
+    margin-left:160px ;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.navbar-collapse.collapse{
+    margin-left:0px ;
+    }
+}
+.navbar-brand img{
+    margin-left: 117px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.navbar-brand img{
+    margin-left: 0px;
+    }
+}
+/* header part start */
+ 
+ /* <!-- sale 20% section start --> */
+.carousel-inner .d-block{
+    width: 100%;
+    height: 800px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.carousel-inner .d-block{
+        width: 100%;
+        height: 350px;
+        
+    }
+}
+.image{
+    position: relative;
+    background: url(images/arrival-bg.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-position: top; 
+}
+.container.sale {
+    text-align: left;
+    margin-bottom: 150px;
+    padding-bottom: 100px;
+    font-size: 22px;
+    line-height: 35px;
+
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.container.sale{
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 13px;
+    padding-bottom:0px;
+    line-height: 20px;
+   }
+}
+
+.carousel-indicators{
+    margin-bottom: 120px;
+
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .carousel-indicators{
+       margin-bottom: 15px;
+       
+    }
+}
+
+.btnD1{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    background-color: #f7444e;
+    color: white;
+    padding: 0.5rem;
+}
+
+ /* <!-- sale 20% section end --> */
+
+/* <!-- arrival-part start--> */
+
+.arrival{
+    float: right;
+    width: 558px;   
+    padding-top : 140px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .arrival{
+        float: none ;
+        width: 300px;
+        padding: 32px;
+        margin-left: 76px;
+        font-size: 15px;
+    }
+}
+.banner1{
+    background: url(images/arrival-bg.png);
+    background-size:cover;
+    height: 800px; 
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .banner1{
+        background: url(images/arrival-bg.png);
+        background-size:cover;
+        height: 388px;
+        background-position: center;
+    }   
+}
+/* <!-- arrival-part end--> */
+
+/* gallery section start */
+.gallery{
+    padding: 60px 0;
+}
+.col.text-center {
+    background:rgb(241, 243, 243);
+    padding: 10px;
+    border: 1px solid #1b1b1b; 
+}
+/* gallery section end */
+
+/* why shop with us part section start */
+.section-head::after{
+    background-color: #f7444e;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;   
+}
+/* why shop with us part section end */
+
+/* our product section start */
+.our::after{
+    background-color: #f7444e;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;   
+}
+/* our product section end */
